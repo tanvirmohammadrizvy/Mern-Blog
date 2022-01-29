@@ -66,4 +66,15 @@ router.get("/:id", async(req,res) => {
     }
 });
 
+//Get All Post
+router.get("/", async(req,res) => {
+    const username = req.query.username;
+    const catName = req.query.cat;
+    try{
+        
+    }catch (err){
+        res.status(500).json(err);
+    }
+});
+
 module.exports = router
