@@ -34,7 +34,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
-app.use("/api/post", postRoute);
+app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
 
