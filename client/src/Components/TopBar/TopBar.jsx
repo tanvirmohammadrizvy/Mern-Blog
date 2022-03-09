@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './TopBar.css'
+import './TopBar.css';
 
 export default function TopBar() {
     const user = false;
@@ -31,7 +31,7 @@ export default function TopBar() {
         <div className="topRight">
             {
                 user ? (
-                    <img className="topImage" src="https://scontent.fdac15-1.fna.fbcdn.net/v/t1.6435-1/p160x160/73004418_109370697140837_590276687137079296_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=dbb9e7&_nc_ohc=nZ9QONu1OTAAX93kkhg&_nc_ht=scontent.fdac15-1.fna&tp=6&oh=52aff571f3a56eec6bd150edcf7b7248&oe=60CF3053" alt="" />
+                    <img className="topImage" src="https://scontent.fdac15-1.fna.fbcdn.net/v/t1.6435-1/p160x160/73004418_109370697140837_590276687137079296_n.jpg" alt="" />
                 ) : (
                     <ul className="topList">
                         <li className="topListItem">

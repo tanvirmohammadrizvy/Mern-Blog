@@ -1,6 +1,10 @@
+import axios from "axios";
 import "./Write.css";
 
 export default function Write() {
+  axios.post('/post', {
+
+  });
   return (
     <div className="write">
       <img
