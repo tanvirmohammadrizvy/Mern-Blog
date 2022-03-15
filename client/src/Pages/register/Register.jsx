@@ -16,11 +16,10 @@ export default function Register() {
         email,
         password
       });
-      res.data && window.location.replace("/login")
+      res.data && window.location.replace("/login");
     }catch(err){
       setError(true);
     }
-
   };
     return (
         <div className="register">
